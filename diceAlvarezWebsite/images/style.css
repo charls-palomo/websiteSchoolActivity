@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Nova+Square&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Roboto+Slab:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Press Start 2P";
+}
+
+.mainHeader
+{
+    color: rgb(255, 255, 255);
+    font-family: "CrystalUniverseOblique", sans-serif;
+    display: flex;
+    border-bottom: 3px solid rgb(243, 79, 65);
+    box-shadow: 0px 0px 20px rgb(243, 79, 65);
+    padding: 5px;
+    background-image: linear-gradient(to right, rgba(255, 254, 220, 0.7), rgba(255, 251, 162, 0.7));
+}
+
+.mainHeaderTxt
+{
+    margin-top: 17px;
+    margin-left: 35px;
+    margin-bottom: 22px;
+    font-family: "Press Start 2P";
+    color: rgb(255,210,73);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 15px;
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+    font-size: 35px;
+
+}
+
+.mainHeaderTxt:hover
+{
+    scale: 110%;
+    transition: ease-in 0.2s;
+    transition: ease-out 0.2s;
+}
+
+.navBar
+{
+    display: flex;
+    margin-left: auto;
+    margin-right: 10px;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+}
+
+.palomo, .arintoc, .alvarez, .isidro
+{
+    border: 3px solid rgb(243, 79, 65);
+    background-color: rgb(151, 138, 196);
+    color: rgb(255, 221, 80);
+    box-shadow: 0 0 40px rgb(243, 79, 65);
+    padding: 12px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.alvarez
+{
+    border: 3px solid rgb(243, 79, 65);
+    padding: rgb(255, 221, 80);
+    background-color: rgb(98, 61, 99);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    scale: 95%;
+}
+
+.arintoc:hover, .palomo:hover, .isidro:hover
+{
+    color: rgb(179, 179, 179);
+    scale: 90%;
+    transition: ease 0.2s;
+}
+
+.mainBg
+{
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.mainContent
+{
+    margin-top: 90px;
+}
+
+.dicePic
+{
+    margin-left: 90px;
+    box-shadow: 0 0 40px rgb(252,98,111);
+    border-radius: 200px;
+}
+
+.introduction
+{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    font-family: "Press Start 2P";
+    text-shadow: 0 0 4px black;
+}
+
+
+.introText
+{
+    font-size: 25px;
+    margin-top: 90px;
+    color: rgb(255,221,80);
+}
+
+.name
+{
+    font-size: 35px;
+    color: rgb(255,221,80);
+}
+
+.foodHeaderText
+{
+    display: flex;
+    justify-content: center;
+    color: rgb(255,221,80);
+    font-family: "Press Start 2P";
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.headerUnique
+{
+    color: rgb(255,221,80);
+    margin-left: 15px;
+}
+
+.foodSeperator1
+{
+    margin-top: 250px;
+    border: none;
+    height: 5px;
+    color: rgb(243,79,65);
+    background-color: rgb(243,79,65);
+    box-shadow: 0 0 10px rgb(243,79,65), 0 0 20px rgb(243,79,65);
+}
+
+.foodSeperator2
+{
+    border: none;
+    height: 5px;
+    color: rgb(243,79,65);
+    background-color: rgb(243,79,65);
+    box-shadow: 0 0 10px rgb(243,79,65), 0 0 20px rgb(243,79,65);
+}
+
+.food
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.food img
+{
+    border-radius: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+}
+
+.foodText
+{
+    margin-top: 150px;
+    font-family: "Press Start 2P";
+    font-size: 40px;
+    margin-left: 10px;
+    text-align: center;
+    color: rgb(255,221,80);
+    text-shadow: 0 0 4px black;
+    width: 450px;
+}
+
+.foodunique
+{
+color: rgb(255,221,80);
+}
+
+.videoSeperator1
+{
+    margin-top: 150px;
+    border: none;
+    height: 5px;
+    color: rgb(243,79,65);
+    background-color: rgb(243,79,65);
+    box-shadow: 0 0 10px rgb(243,79,65), 0 0 20px rgb(243,79,65);
+}
+
+.videoSeperator2
+{
+    border: none;
+    height: 5px;
+    color: rgb(243,79,65);
+    background-color: rgb(243,79,65);
+    box-shadow: 0 0 10px rgb(243,79,65), 0 0 20px rgb(243,79,65);
+}
+
+.videoHeader
+{
+    display: flex;
+    justify-content: center;
+    font-family: "Press Start 2P";
+    color: rgb(255,221,8);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.video
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.mainVideo
+{
+    border: 3px solid rgb(243,79,65);
+    box-shadow: 0 0 40px rgb(243,79,65);
+}
+
+.lyricsSeperator1
+{
+    border: none;
+    height: 5px;
+    color: rgb(243,79,65);
+    background-color: rgb(243,79,65);
+    box-shadow: 0 0 10px rgb(243,79,65), 0 0 20px rgb(243,79,65);
+}
+
+.lyricsSeperator2
+{
+    border: none;
+    height: 5px;
+    color: rgb(243,79,65);
+    background-color: rgb(243,79,65);
+    box-shadow: 0 0 10px rgb(243,79,65), 0 0 20px rgb(243,79,65);
+}
+
+.lyricsHeader
+{
+    display: flex;
+    justify-content: center;
+    font-family: "Press Start 2P";
+    color: rgb(255,221,8);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.lyricsTxt
+{
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Press Start 2P";
+    margin-bottom: 40px;
+    text-shadow: 0 0 4px black;
+}
+
+.red
+{
+    color: rgb(243,79,65);
+}
+
+.yellow
+{
+    color: rgb(255,221,80);
+}
