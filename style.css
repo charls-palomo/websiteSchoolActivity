@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.mainBg {
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.mainHeader {
+    color: rgb(255, 255, 255);
+    font-family: "Press Start 2P";
+    display: flex;
+    border-bottom: 1px solid;
+    padding: 5px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(102, 102, 102, 0.7));
+    position: sticky  ;
+    top: 0%;
+    z-index: 1000;
+}
+
+.mainHeaderTxt {
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-bottom: 25px;
+}
+
+.mainHeaderTxt a {
+    text-decoration: none;
+    color: white;
+}
+
+.navBar {
+    display: flex;
+    margin-left: auto;
+    margin-right: 10px;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+.palomo,
+.arintoc,
+.alvarez,
+.isidro {
+    border: 1px solid white;
+    padding: 12px;
+    color: black;
+    background-color: hsl(0, 0%, 90%);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: ease-in-out 0.2s;
+    text-decoration: none;
+}
+
+.membersTxt {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.palomo:hover,
+.arintoc:hover,
+.alvarez:hover,
+.isidro:hover {
+    color: rgb(179, 179, 179);
+    transform: scale(1.1);
+}
+
+.welcomeMessage {
+    color: white;
+    font-family: "Press Start 2P";
+    margin-top: 120px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.welcomeMessage img {
+    margin-left: 270px;
+    margin-top: -35px;
+}
+.welcomeTxt {
+    border: 1px solid white;
+    padding: 20px;
+    font-size: 20px;
+    max-width: 1000px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px;
+    transition: ease-in-out 0.2s;
+}
+
+.welcomeTxt:hover {
+    transform: scale(1.1);
+}
+
+.welcomeMessage img {
+    height: auto;
+    width: 500px;
+    display: inline-flex;
+    transition: ease-in-out 0.2s;
+}
+
+.welcomeMessage img:hover {
+    transform: scale(1.1);
+}
+
+.socialsTxt {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    font-size: 50px;
+    font-family: "Press Start 2P";
+    color: rgb(0, 0, 0);
+    background-color: hsl(0, 0%, 90%);
+    padding: 20px;
+}
+
+.margin {
+    margin-top: 160px;
+}
+
+.palomoSocial img {
+    height: auto;
+    width: 450px;
+    border-radius: 500px;
+    box-shadow: 0 0 40px rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    transition: ease-in-out 0.2s;
+}
+
+.palomoSocial img:hover {
+    transform: scale(1.1);
+}
+
+
+.palomoSocial {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 300px;
+}
+
+.palomoSocialTxt {
+    margin-top: 225px;
+    color: white;
+    font-family: "Press Start 2P";
+    font-size: 30px;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px;
+    transition: ease-in-out 0.2s;
+}
+
+.palomoSocialTxt:hover {
+    transform: scale(1.1);
+}
+
+
+.arintocSocial img {
+    height: auto;
+    width: 450px;
+    border-radius: 500px;
+    box-shadow: 0 0 40px rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    transition: ease-in-out 0.2s;
+}
+
+.arintocSocial img:hover {
+    transform: scale(1.1);
+}
+
+.arintocSocial {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 300px;
+}
+
+.arintocSocialTxt {
+    margin-top: 225px;
+    color: white;
+    font-family: "Press Start 2P";
+    font-size: 30px;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px;
+    transition: ease-in-out 0.2s;
+}
+
+.arintocSocialTxt:hover {
+    transform: scale(1.1);
+}
+
+
+.alvarezSocial img {
+    height: auto;
+    width: 450px;
+    border-radius: 500px;
+    box-shadow: 0 0 40px rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    transition: ease-in-out 0.2s;
+}
+
+.alvarezSocial img:hover {
+    transform: scale(1.1);
+}
+
+.alvarezSocial {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 300px;
+}
+
+.alvarezSocialTxt {
+    margin-top: 225px;
+    color: white;
+    font-family: "Press Start 2P";
+    font-size: 30px;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px;
+    transition: ease-in-out 0.2s;
+}
+
+.alvarezSocialTxt:hover {
+   transform: scale(1.1);
+}
+
+
+.isidroSocial img {
+    height: auto;
+    width: 450px;
+    border-radius: 500px;
+    box-shadow: 0 0 40px rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    transition: ease-in-out 0.2s;
+}
+
+.isidroSocial img:hover {
+    transform: scale(1.1);
+    
+}
+
+.isidroSocial {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 300px;
+    margin-bottom: 100px;
+}
+
+.isidroSocialTxt {
+    margin-top: 225px;
+    color: white;
+    font-family: "Press Start 2P";
+    font-size: 30px;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px;
+    transition: ease-in-out 0.2s;
+}
+
+.isidroSocialTxt:hover {
+    transform: scale(1.1);
+}
+
+.palomoSocialTxt,
+.arintocSocialTxt,
+.alvarezSocialTxt,
+.isidroSocialTxt {
+    color: black;
+    background-color: hsl(0, 0%, 90%);
+}
+
+.membersSeperator {
+    margin-top: 60px;
+}
+
+.socials {
+    color: white;
+    font-family: "Press Start 2P";
+}
+
+.facebookHeader {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.facebookSocials,
+.facebookHeader {
+    display: flex;
+    justify-content: center;
+}
+
+.facebookSocials {
+    display: flex;
+    list-style-type: none;
+    gap: 150px;
+}
+
+.instagramHeader {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.instagramSocials,
+.instagramHeader {
+    display: flex;
+    justify-content: center;
+}
+
+.instagramSocials {
+    display: flex;
+    list-style-type: none;
+    gap: 150px;
+    margin-bottom: 50px;
+}
+
+.socialsSeperator {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.palomoSocials,
+.arintocSocials,
+.alvarezSocials,    
+.isidroSocials {
+    border: 1px solid white;
+    padding: 20px;
+    color: black;
+    background-color: hsl(0, 0%, 90%);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: 0.2s ease-in-out ;
+    display: inline-block;
+    text-decoration: none;
+}   
+
+.palomoSocials:hover,
+.arintocSocials:hover,
+.alvarezSocials:hover,
+.isidroSocials:hover {
+    transform: scale(1.1);
+}
+
+mark {
+    background-color: white; 
+    padding: 1px;    
+    border-radius: 4px;
+    
+}
