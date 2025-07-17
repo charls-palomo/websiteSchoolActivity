@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+.mainBg {
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;    
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+.Tralalelo {
+    margin-left: 750px;
+    height: 450px;
+    width: 450px;
+}
+
+.Tripi {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 70px;
+}
+
+.Krusty {
+    margin-left: 200px;
+    margin-bottom: -30px;
+    margin-top: -290px;
+}
+
+.Food {
+    font-size: 30px;
+    border: 2px solid rgb(97, 0, 189);
+    box-shadow: 0 0 10px rgb(97, 0, 189);
+    padding: 20px;
+    border-radius: 30px;
+    max-width: 600px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 60px;
+    font-family: "Press Start 2P";
+}
+
+.Fun {
+    font-size: 23px;
+    border: 2px solid rgb(97, 0, 189);
+    box-shadow: 0 0 10px rgb(97, 0, 189);
+    padding: 20px;
+    border-radius: 30px;
+    max-width: 500px;
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-bottom: -245px;
+    font-family: "Press Start 2P";
+}
+
+.Fun2 {
+    font-size: 20px;
+    border: 2px solid rgb(97, 0, 189);
+    box-shadow: 0 0 10px rgb(97, 0, 189);
+    padding: 20px;
+    border-radius: 30px;
+    max-width: 340px;
+    margin-top: 30px;
+    margin-left: 1450px;
+    margin-bottom: -390px;
+    font-family: "Press Start 2P";
+}
+
+.Manok2 {
+    height: 300px;
+    width: 300px;
+}
+
+.mainHeader
+{
+    color: rgb(0, 60, 255);
+    font-family: "Press Start 2P";
+    display: flex;
+    border-bottom: 3px solid rgb(84, 0, 163);
+    padding: 5px;
+    background-image: linear-gradient(to right, rgba(0, 153, 255, 0.808), rgba(97, 0, 189, 0.801));
+}
+
+.mainHeaderTxt
+{
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-bottom: 25px;
+    border: 3px solid rgb(0, 60, 255);
+    background-color: rgb(218, 205, 26);
+    padding: 12px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 70, 255);
+}
+
+.navBar
+{
+    display: flex;
+    margin-left: auto;
+    margin-right: 10px;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+}
+
+.palomo, .arintoc, .alvarez
+{
+    border: 3px solid rgb(0, 60, 255);
+    padding: 12px;
+    color: rgb(0, 60, 255);
+    background-color: rgb(218, 205, 26);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 70, 255);
+}
+
+.palomo:hover, .arintoc:hover, .alvarez:hover, .mainHeaderTxt:hover
+{
+    color: rgb(0, 189, 189);
+    scale: 90%;
+    transition: 0.2s;
+    border-color: rgb(0, 189, 189);
+}
+
+.isidro:hover {
+    color: rgb(0, 189, 189);
+    scale: 85%;
+    transition: 0.2s;
+    border-color: rgb(0, 189, 189);
+
+}
+
+.isidro:active {
+    color: rgb(0, 80, 255);
+    scale: 90%;
+    transition: ease 0.2s;
+    border-color: rgb(0, 60, 255);
+}
+
+.isidro {
+    color: rgb(0, 60, 255);
+     border: 3px solid rgb(0, 60, 255);
+    padding: 12px;
+    background-color: rgb(131, 122, 0);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    scale: 90%;
+
+}
+
+.palomo:active, .arintoc:active, .alvarez:active, .mainHeaderTxt:active {
+    color: rgb(0, 80, 255);
+    scale: 100%;
+    transition: ease 0.2s;
+    border-color: rgb(0, 60, 255);
+}
+
+.Tralalelo:hover {
+    scale: 95%;
+    transition: 0.2s;
+}
+
+.Tralalelo:active {
+    scale: 100%;
+    transition: 0.2s;
+}
+
+.Shark:hover, .Fun:hover, .Fun2:hover {
+    scale: 90%;
+    transition: 0.2s;
+}
+
+.Shark:active, .Fun:active, .Fun2:active {
+    scale: 100%;
+    transition: 0.2s;
+}
+
+.Tripi:hover {
+    scale: 95%;
+    transition: 0.2s;
+}
+
+.Tripi:active {
+    scale: 100%;
+    transition: 0.2s;
+}
+
+.Shark {
+    font-size: 30px;
+    border: 2px solid rgb(97, 0, 189);
+    padding: 20px;
+    border-radius: 30px;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgb(97, 0, 189);
+    margin: auto;
+    margin-top: -600px;
+    font-family: "Press Start 2P";
+}
+
+.Manok {
+    height: 300px;
+    width: 300px;
+    margin-left: 1500px;
+    margin-top: -200px;
+}
+
+.Manok:hover {
+    scale: 95%;
+    transition: 0.2s;
+}
+
+.Manok:active {
+    scale: 100%;
+    transition: 0.2s;
+}
+
+.Food:hover {
+    scale: 90%;
+    transition: 0.2s;
+}
+
+.Food:active {
+    scale: 100%;
+    transition: 0.2s;
+}
+
+.Krusty:hover {
+    scale: 95%;
+    transition: 0.2s;
+}
+
+.Krusty:active {
+    scale: 100%;
+    transition: 0.2s;
+}
